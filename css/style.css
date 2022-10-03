@@ -22,6 +22,9 @@ a, a:hover, a:focus{
 	text-decoration:none;
 	cursor: pointer;
 }
+.witget_area{
+	overflow: hidden;
+}
 
 /*************Header Area start*************/
 
@@ -30,10 +33,10 @@ a, a:hover, a:focus{
 	padding: 10px 0px;
 }
 .inquire-btn{
-    padding: 14px 30px;
-    width: 250px;
+    padding: 14px 10px;
+    width: 200px;
     text-align: center;
-    background: linear-gradient(268.18deg,#ec597c -6.05%,#ec597c -6.04%,#ff5c38 99.59%);
+    background: #B85D8D;
     border-radius: 4px;
     color: #fff;
     font-style: normal;
@@ -45,6 +48,8 @@ a, a:hover, a:focus{
     align-items: center;
     gap: 20px;
 	border: 1px solid #A63470;
+	position: relative;
+	z-index: 200;
 }
 .inquire-btn:hover{
     color: #fff;
@@ -125,14 +130,35 @@ a, a:hover, a:focus{
 .hero_img img{
 	margin-right: -100px;
 }
+.modal-backdrop {
+	background: rgba(251,113,86,.57);
+    backdrop-filter: blur(24px);
+}
+.modal-backdrop.show {
+	opacity: 1 !important;
+}
+.modal-dialog {
+    max-width: 650px;
+    margin: 1.75rem auto;
+}
+.modal_iframe{
+	width: 100%;
+	height: calc(100vh - 40px);
+}
+.modal-dialog {
+    margin: 0 auto;
+}
+.modal-open .modal {
+	padding: 20px !important;
+}
 
-/*************Hero Area start*************/
+/*************why_genbody Area start*************/
 
 .why_genbody{
 	padding: 100px 0px 0px;
 }
 .why_genbody_content{
-	padding-left: 40px;
+	padding-right: 20px;
 }
 .why_genbody_content h3{
 	font-weight: 500;
@@ -144,7 +170,7 @@ a, a:hover, a:focus{
 	margin: 0;
 	padding: 0;
 	padding-top: 20px;
-
+	padding-bottom: 10px;
 }
 .why_genbody_content ul li{
 	font-weight: 400;
@@ -153,13 +179,14 @@ a, a:hover, a:focus{
 	color: #6E8594;
 	position: relative;
 	list-style-type: none;
-	padding-left: 20px;
+	padding-left: 26px;
+	padding-top: 10px;
 }
 .why_genbody_content ul li:before{
 	content: "";
 	position: absolute;
 	left: 2px;
-	top: 11px;
+	top: 20px;
 	width: 8px;
 	height: 8px;
 	background: #FB7156;
@@ -169,7 +196,7 @@ a, a:hover, a:focus{
 	content: "";
 	position: absolute;
 	left: 0px;
-	top: 9px;
+	top: 18px;
 	width: 12px;
 	height: 12px;
 	border: 0.4px solid #E9F2FF;
@@ -181,6 +208,28 @@ a, a:hover, a:focus{
 .slide_1{
 	text-align: center;
 }
+.why_genbody_new{
+	padding: 70px 0px 150px;
+	background: url(../images/bg-1.png) top right no-repeat;
+	background-size: cover;
+	background-color: #E5E5E5;
+	overflow: hidden;
+	position: relative;
+}
+.why_genbody_new:before{
+	content: "";
+    position: absolute;
+    left: -50%;
+    bottom: -315px;
+    width: 200%;
+    height: 400px;
+    background-color: #ffffff;
+    transform: rotate(-7deg);
+}
+.why_genbody_new .slide_1{
+	padding-top: 30px;
+}
+
 
 /*************Tests Area start*************/
 
@@ -188,18 +237,21 @@ a, a:hover, a:focus{
 	width: 100%;
 	display: block;
 	position: relative;
-	padding-bottom: 150px;
+	margin-bottom: 150px;
+}
+.tests_area_new{
+	margin-top: -230px;
 }
 .tests_area:before{
-	width: 100%;
+	width: 200%;
 	height: 100%;
 	content: "";
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	background: url(../images/bg-2.png) center center no-repeat;
-	background-size: 100% 100%;
+	top: 79px;
+	left: -50%;
+	background: linear-gradient(to right, #ec597c 0%, #fb7055 100%);
 	z-index: 5;
+	transform: rotate(-10deg);
 }
 .tests_area:after{
 	width: 100%;
@@ -240,6 +292,14 @@ a, a:hover, a:focus{
 	border-radius: 6px;
 	display: inline-block;
 	padding: 5px 20px;
+}
+/*************Service Area start*************/
+
+.tests_area .her_service{
+	text-align: center;
+}
+.tests_area .her_service {
+    padding-top: 15px;
 }
 
 /*************FAQ Area start*************/
