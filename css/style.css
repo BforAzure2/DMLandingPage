@@ -138,7 +138,7 @@ a, a:hover, a:focus{
 	opacity: 1 !important;
 }
 .modal-dialog {
-    max-width: 650px;
+    max-width: 550px;
     margin: 1.75rem auto;
 }
 .modal_iframe{
@@ -212,7 +212,7 @@ a, a:hover, a:focus{
 	padding: 70px 0px 150px;
 	background: url(../images/bg-1.png) top right no-repeat;
 	background-size: cover;
-	background-color: #E5E5E5;
+	background-color: #ffffff;
 	overflow: hidden;
 	position: relative;
 }
@@ -292,6 +292,9 @@ a, a:hover, a:focus{
 	border-radius: 6px;
 	display: inline-block;
 	padding: 5px 20px;
+}
+.tests_area_new .her_service ul li{
+	color: #ffffff;
 }
 /*************Service Area start*************/
 
