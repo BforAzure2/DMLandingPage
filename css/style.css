@@ -464,7 +464,16 @@ a, a:hover, a:focus{
 	line-height: 18px;
 	color: #FFFFFF;
 }
-
+.faq_inquire_btn{
+	text-align: center;
+	margin-top: 50px;
+}
+.faq_inquire_btn a{
+	display: inline-block;
+}
+.modal-content iframe{
+	height: 100vh;
+}
 
 
 
