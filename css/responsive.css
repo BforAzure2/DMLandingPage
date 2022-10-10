@@ -2,7 +2,21 @@
 @media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
 
 
+    .footer_logo{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .footer_location{
+        width: 100%;
+        padding-bottom: 0px;
+    }
 
 
-
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .her_service ul li {
+        max-width: 1000px;
+        width: 25%;
+    }
 }

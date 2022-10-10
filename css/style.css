@@ -36,11 +36,11 @@ a, a:hover, a:focus{
     padding: 14px 10px;
     width: 200px;
     text-align: center;
-    background: #B85D8D;
+    background: #198754;
     border-radius: 4px;
     color: #fff;
     font-style: normal;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
 	font-weight: 700;
     display: flex;
@@ -392,8 +392,15 @@ a, a:hover, a:focus{
 	background-size: cover;
 	padding: 80px 0px 30px;
 }
+.site_footer .col-md-4{
+	display: flex;
+	align-items: center;
+}
+.footer_logo{
+	padding-bottom: 20px;
+}
 .footer_location{
-	padding-top: 40px;
+	padding-bottom: 20px;
 }
 .footer_location ul{
 	margin: 0;
