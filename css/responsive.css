@@ -19,4 +19,15 @@
         max-width: 1000px;
         width: 25%;
     }
+    .header_logo{
+        max-width: 160px;
+    }
+    .inquire-btn {
+        padding: 14px 5px;
+        width: 160px;
+        font-size: 16px;
+    }
+    .inquire-btn i{
+        margin-right: -5px;
+    }
 }
