@@ -30,7 +30,7 @@ a, a:hover, a:focus{
 
 .header_area{
 	background: #fff;
-	padding: 10px 0px;
+	padding: 20px 0px;
 }
 .inquire-btn{
     padding: 14px 10px;
@@ -209,7 +209,7 @@ a, a:hover, a:focus{
 	text-align: center;
 }
 .why_genbody_new{
-	padding: 70px 0px 150px;
+	padding: 70px 0px 200px;
 	background: url(../images/bg-1.png) top right no-repeat;
 	background-size: cover;
 	background-color: #ffffff;
@@ -293,8 +293,12 @@ a, a:hover, a:focus{
 	display: inline-block;
 	padding: 5px 20px;
 }
-.tests_area_new .her_service ul li{
+.tests_area_new .her_service ul li, .tests_area_new .her_service ul li span{
 	color: #ffffff;
+}
+.tests_area_new .her_service ul li a{
+	color: #ffffff;
+	display: inline-block;
 }
 /*************Service Area start*************/
 
