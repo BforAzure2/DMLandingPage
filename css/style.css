@@ -322,7 +322,7 @@ a, a:hover, a:focus{
 	font-weight: 600;
 }
 .accordion-button:not(.collapsed) {
-    background: linear-gradient(268.18deg,#ec597c -6.05%,#ec597c -6.04%,#ff5c38 99.59%);
+    background: linear-gradient(268.18deg,#ec597c -6.05%,#ec597c -6.04%,#ec597c 99.59%);
     border-radius: 4px;
 	color: #fff;
 	border: 1px solid #A63470;
