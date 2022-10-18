@@ -36,7 +36,7 @@ a, a:hover, a:focus{
     padding: 14px 10px;
     width: 200px;
     text-align: center;
-    background: #198754;
+    background: #ff5c38;
     border-radius: 4px;
     color: #fff;
     font-style: normal;
@@ -249,7 +249,7 @@ a, a:hover, a:focus{
 	position: absolute;
 	top: 79px;
 	left: -50%;
-	background: linear-gradient(to right, #ec597c 0%, #fb7055 100%);
+	background: linear-gradient(to right, #ec597c 100%, #fb7055 0%);
 	z-index: 5;
 	transform: rotate(-10deg);
 }
